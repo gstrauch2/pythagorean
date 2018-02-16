@@ -14,17 +14,17 @@
 using namespace std;
 
 int main() {
-    double opposite = 13.0;
-    double adjacent = 6.0;
-    double hypotenuse = 0;
+    double dblOpposite = 13.0;
+    double dblAdjacent = 6.0;
+    double dblHypotenuse = 0;
 
-    hypotenuse = sqrt(pow(opposite, 2)+ pow(adjacent, 2));
+    dblHypotenuse = sqrt(pow(dblOpposite, 2)+ pow(dblAdjacent, 2));
 
     cout << fixed;
     cout << setprecision(3);
 
-    cout << "opposite = " << opposite << endl << "adjacent = " << adjacent << endl;
-    cout << "hypotenuse = " << hypotenuse << endl;
+    cout << "opposite = " << dblOpposite << endl << "adjacent = " << dblAdjacent << endl;
+    cout << "hypotenuse = " << dblHypotenuse << endl;
 
     return 0;
 }
